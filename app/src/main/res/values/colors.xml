@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#666ad1</color>
+    <color name="purple_500">#303f9f</color>
+    <color name="purple_700">#001970</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="btn_blue">#303f9f</color>
+    <color name="btn_gray">#CCCCCC</color>
+    <color name="btn_delete">#ec4646</color>
+    <color name="btn_update">#ffa62b</color>
+    <color name="background_1">#f4f9f9</color>
+    <color name="background_2">#d3e0ea</color>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">IELTS Helper App</string>
+    <string name="My_Vocabulary">My Vocabulary</string>
+    <string name="Vocabulary_Quiz">Vocabulary Quiz</string>
+    <string name="Back">Back</string>
+    <string name="Add">Add</string>
+    <string name="Translate">Translate</string>
+    <string name="Description">Description</string>
+    <string name="Word">Word</string>
+    <string name="Delete">Delete</string>
+    <string name="Update">Update</string>
+    <string name="Online_Vocabulary">Online Vocabulary</string>
+</resources>

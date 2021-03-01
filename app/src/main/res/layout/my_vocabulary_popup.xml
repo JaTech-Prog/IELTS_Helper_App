@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="340dp"
+    android:layout_height="690dp"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="40dp"
+    android:orientation="vertical"
+    android:background="@color/purple_500"
+    android:layout_weight="1"
+    android:layout_gravity="center"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/txt_MyVocab_PopUp_Close"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="X"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="end"
+        android:textSize="20sp"
+        android:background="@drawable/circle_background"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="60dp">
+
+        <TextView
+            android:id="@+id/txt_MyVocab_PopUp_Word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="@string/Word"
+            android:textColor="@color/white">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_MyVocab_PopUp_Translate"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:textSize="30sp"
+            android:text="@string/Translate"
+            android:textColor="@color/white">
+        </TextView>
+        <TextView
+            android:id="@+id/txt_MyVocab_PopUp_Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="20dp"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:text="@string/Description"
+
+            android:textColor="@color/white">
+        </TextView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginTop="30dp">
+    <Button
+        android:id="@+id/btn_MyVocab_PopUp_Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Delete"
+        android:textStyle="bold"
+        android:layout_margin="15dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/btn_delete"/>
+
+    <Button
+        android:id="@+id/btn_MyVocab_PopUp_Update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Update"
+        android:layout_margin="15dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/btn_update"/>
+
+</LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/background_2"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="10dp"
+        android:paddingBottom="100dp"
+        android:gravity="center">
+        <!-- TODO: tüm componentların idlerini alttaki formatta değiştir(btn_page_name) java ve xml için.-->
+        <Button
+            android:id="@+id/btn_main_onlineVocabulary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Online_Vocabulary"/>
+
+        <Button
+            android:id="@+id/myVocabulary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/My_Vocabulary" />
+
+        <Button
+            android:id="@+id/vocabularyQuiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/Vocabulary_Quiz" />
+
+    </LinearLayout>
+</LinearLayout>
